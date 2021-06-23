@@ -1,11 +1,7 @@
 body{
     background-color: #1d1d1d;
     font-family: Arimo,Arial,Helvetica,"Lucida Grande",sans-serif;;
-}
-.container div{
-    border: 1px;
-    border-color: #fff;
-    border-style: dashed;
+    color: #fff;
 }
 
 .container{
@@ -31,16 +27,88 @@ body{
 }
 .box-2 {
     flex: 1;
-    color: #fff;
     align-items: center;
 }
 
 .box-3{
     flex: 1;
-    color: #fff;
 }
 
 .trailer{
     width: 390px;
     height: 300px;
+}
+
+.mainDiv{
+    width: 1170px;
+    margin:auto;
+    margin-top: -15px;
+}
+
+.box-4 {
+    width: 780px;
+    display: inline-block;
+}
+
+.box-5{
+    display: inline-block;
+}
+
+.box-6{
+    margin:auto; 
+}
+
+.table td{
+    border: 1px solid #333;
+    width: 1170px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.elementList-1 {
+    border-bottom: dotted 1px #333;
+    margin: 10px 0;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.elementList-2 {
+    border-bottom: dotted 1px #333;
+    margin: 10px 0;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.elementList-3 {
+    border-bottom: dotted 1px #333;
+    margin: 10px 0;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.elementList-4 {
+    border-bottom: dotted 1px #333;
+    margin: 10px 0;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+a:hover{
+    color: red;
+}
+
+a {
+    color: #fff;
+}
+
+.style-1 {
+    border-radius: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.paragraph {
+    display: inline-block;
 }
