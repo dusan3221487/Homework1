@@ -22,16 +22,19 @@ body{
 
 .box-1 {
     flex: 1;
+    width: 33%;
     justify-content: center;
     align-items: center;
 }
 .box-2 {
     flex: 1;
+    width: 33%;
     align-items: center;
 }
 
 .box-3{
     flex: 1;
+    width: 33%;
 }
 
 .trailer{
@@ -112,3 +115,135 @@ a {
 .paragraph {
     display: inline-block;
 }
+
+.header-1 {
+    width: 50%;
+    margin: 0px 0px 0px 79px;
+    float: left;
+}
+
+.mainHeader{
+    padding: 10px 0px 0px;
+    background: #1d1d1d;  
+    
+}
+
+.text-header{
+    font-family: Arimo,Arial,Helvetica,"Lucida Grande",sans-serif;
+    color: #919191;
+    margin: 7px 0px 0px 32px;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 1.42857143;
+}
+
+.image-header {
+    margin: 0px 0px 0px 6px;
+    vertical-align: middle;
+}
+
+.search{
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 40px;
+    border: 2px solid #333;
+    overflow: hidden;
+    color: #919191;
+    margin-left: 50px;
+}
+
+.search-txt {
+    height: 25px;
+    width: 200px;
+    border: 0;
+    background: #1d1d1d;
+    align-items: center;
+    outline: none;
+}
+
+input[type="text"] {
+    font-family: Arial,Helvetica,"Lucida Grande",sans-serif;
+    font-size: .9em;
+    color: peru;
+    background-image: url(images/src.png);   
+    padding: 3px 10px;                   
+  }
+
+  ::placeholder {
+    font-size: 14px;
+    font-weight: bold; }
+
+    .tabs{
+        display: inline-block;
+        vertical-align: 15px;
+        margin-left: 5px;
+    }
+
+    .tabs a{
+    text-decoration: none;
+    font-size: 14px;
+    }
+
+    .tab0{
+        color: #999;
+    }
+
+    .tab1{
+        margin-left: 10px;
+        color: #6ac045;
+    }
+
+    .tab2{
+        margin-left: 10px;
+        color: #999;
+    }
+    .tab3{
+        margin-left: 10px;
+        color: #999;
+    }
+    .tab4{
+        margin-left: 10px;
+    }
+    .tab5{
+        margin-left: 10px;
+    }
+
+    .tab6{
+        margin-left: 10px;
+        color: #999;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .casting {
+        margin: 0px;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #171717;
+    }
+      
+    .footerP{
+        display: inline;
+        text-align: center;
+    }
+
+    .footerDiv1 {
+        color: white;
+        text-align: center;
+        margin: auto;
+    }
+
+    .footerDiv1 a{
+        text-decoration: none;
+    }
+
+    .footerP2{
+        display: inline;
+        text-align: center;
+        font-size: 12px;
+  }
