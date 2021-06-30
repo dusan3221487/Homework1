@@ -247,3 +247,158 @@ input[type="text"] {
         text-align: center;
         font-size: 12px;
   }
+
+  .label1{
+    display: inline-block;
+    vertical-align: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    display: none;
+  }
+
+  #toggle  {
+      display: none;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .label1 {
+        display: block;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .tabs {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .tabs a {
+        display: block;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0%;
+    }
+
+    #toggle:checked + .tabs {
+        display: block;
+    }
+
+    .table{
+        display: none;
+    }
+
+    .container {
+      width: 100%;
+    }
+    .box-1 {
+        width: 100%;
+      }
+    .box-2 {
+        width: 100%;
+      }
+    .box-3 {
+     width: 100%;
+      }
+    .box-4 {
+        width: 100%;
+      }
+    .box-5 {
+        width: 100%;
+      }
+    .box-6 {
+        width: 100%;
+     }
+    .trailer {
+        width: 100%;
+      }
+    .mainDiv {
+        width: 100%;
+      }
+    .table {
+        width: 100%;
+      }
+    .list {
+        width: 100%;
+      }
+    .elementList-1 {
+        width: 100%;
+      } 
+    .elementList-2 {
+        width: 100%;
+      } 
+    .elementList-3 {
+        width: 100%;
+      }  
+    .elementList-4 {
+        width: 100%;
+      } 
+    .style-1 {
+        width: 100%;
+      } 
+    .paragraph {
+        width: 100%;
+    }
+    .header-1 {
+        width: 100%;
+      } 
+    .mainHeader{
+        width: 100%;
+    }
+    .text-header{
+        width: 100%;
+    }
+    .image-header{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+    .search-txt{
+        width: 100%;
+    }
+    .tabs{
+        width: 100%;
+    }
+
+    .tab0{
+        width: 100%;
+    }
+    .tab1{
+        width: 100%;
+    }
+    .tab2{
+        width: 100%;
+    }
+    .tab3{
+        width: 100%;
+    }
+    .tab4{
+        width: 100%;
+    }
+    .tab5{
+        width: 100%;
+    }
+    .tab6{
+        width: 100%;
+    }
+    .casting{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footerP{
+        width: 100%;
+    }
+    .footerDiv1{
+        width: 100%;
+    }
+    .footerP2{
+        width: 100%;
+    }
+  }
+
+
