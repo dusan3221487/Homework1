@@ -5,16 +5,15 @@ body{
 }
 
 .container{
-    width: 1170px;
-    height: 490.8px;
+    max-width: 1170px;
     margin: auto;
     display: flex;
     background-color: #1d1d1d;
 }
 
 .image {
-    width: 252.5px;
-    height: 380px;
+    max-width: 252.5px;
+    
     border: 5px solid #fff; border-radius: 2%;
     margin-left: 64px;
     margin-top: 25px;
@@ -219,7 +218,7 @@ input[type="text"] {
         margin: 0px;
     }
 
-    .footer {
+    footer {
         position: fixed;
         left: 0;
         bottom: 0;
@@ -257,17 +256,23 @@ input[type="text"] {
   }
 
   #toggle  {
-      display: none;
+    display: none;
   }
 
-
+  
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+
     .label1 {
         display: block;
         cursor: pointer;
-        text-align: center;
+        text-align: right;
     }
 
     .tabs {
@@ -280,125 +285,76 @@ input[type="text"] {
         display: block;
         border-bottom: 1px solid #eaeaeb;
         margin: 0%;
+        font-size: 15px;
     }
 
     #toggle:checked + .tabs {
         display: block;
     }
 
-    .table{
+    .box-6{
         display: none;
     }
 
-    .container {
-      width: 100%;
+    .header-1{
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
     }
-    .box-1 {
-        width: 100%;
-      }
-    .box-2 {
-        width: 100%;
-      }
-    .box-3 {
-     width: 100%;
-      }
-    .box-4 {
-        width: 100%;
-      }
-    .box-5 {
-        width: 100%;
-      }
-    .box-6 {
-        width: 100%;
-     }
-    .trailer {
-        width: 100%;
-      }
-    .mainDiv {
-        width: 100%;
-      }
-    .table {
-        width: 100%;
-      }
-    .list {
-        width: 100%;
-      }
-    .elementList-1 {
-        width: 100%;
-      } 
-    .elementList-2 {
-        width: 100%;
-      } 
-    .elementList-3 {
-        width: 100%;
-      }  
-    .elementList-4 {
-        width: 100%;
-      } 
-    .style-1 {
-        width: 100%;
-      } 
-    .paragraph {
-        width: 100%;
+
+    .box-4{
+        display: flex;
+        flex-direction: column;
     }
-    .header-1 {
+
+    footer{
+        position: relative;
         width: 100%;
-      } 
-    .mainHeader{
-        width: 100%;
+        margin-top: 100px;
     }
-    .text-header{
-        width: 100%;
-    }
-    .image-header{
-        width: 100%;
-    }
-    .search{
-        width: 100%;
-    }
-    .search-txt{
-        width: 100%;
-    }
-    .tabs{
+    
+    .box-2{
         width: 100%;
     }
 
-    .tab0{
-        width: 100%;
+    .image-header img{
+        max-width: 100%;
     }
-    .tab1{
-        width: 100%;
+
+    .box-3{
+        display: flex;
+        flex-direction: column;
     }
-    .tab2{
-        width: 100%;
+
+    .image{
+        margin-left: 50px;
     }
-    .tab3{
-        width: 100%;
+
+    .box-4 h3{
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
-    .tab4{
-        width: 100%;
+
+    .opis{
+        width: 375px;
     }
-    .tab5{
-        width: 100%;
+
+    .text-header{
+        margin: 0%;
+        font-size: 17px;
     }
-    .tab6{
-        width: 100%;
+
+    .trailerHeadline{
+        margin: 10px 0px 10px 0px;
+        width: 200px;
     }
-    .casting{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }
-    .footerP{
-        width: 100%;
-    }
-    .footerDiv1{
-        width: 100%;
-    }
-    .footerP2{
-        width: 100%;
+
+    .trailer{
+        max-width: 350px;
     }
   }
+  
 
 
