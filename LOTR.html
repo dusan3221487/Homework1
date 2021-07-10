@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <meta charset="utf-8" > 
 
-    <title>LOTR Official</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>LOTR Official</title>
 
 </head>
 
@@ -16,17 +18,22 @@
 
     <div class="mainHeader">
 
-        <label class="label1" for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/>
-        <div class="tabs">
+        <label class="label1"></label>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <div id="tabs">
             <a class="tab0" href="#">Home</a>
             <a class="tab1" href="#">4K</a>
             <a class="tab2" href="#">Trending</a>
             <a class="tab3" href="#">Browse Movies</a>
             <a class="tab4" href="#">Login</a>
             <a class="tab5" href="#">Register</a>
-            
         </div>
+        
+        <script src="index.js"></script>
 
         <div class="header-1">
             <img class="image-header" src="images/YTS.JPG" alt="Yify logo">
@@ -151,8 +158,7 @@
 
     </footer>
     
-<!--Link koriscenog filma https://yts.mx/movies/the-lord-of-the-rings-the-fellowship-of-the-ring-2001-->
-
+<!--Link koriscenog filma https://yts.mx/movies/the-lord-of-the-rings-the-fellowship-of-the-ring-2001--> 
 </body>
 
 </html>

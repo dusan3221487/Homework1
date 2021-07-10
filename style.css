@@ -169,18 +169,18 @@ input[type="text"] {
   }
 
   ::placeholder {
-    font-size: 14px;
-    font-weight: bold; }
+        font-size: 14px;
+        font-weight: bold; }
 
-    .tabs{
+    #tabs{
         display: inline-block;
         vertical-align: 15px;
         margin-left: 5px;
     }
 
-    .tabs a{
-    text-decoration: none;
-    font-size: 14px;
+    #tabs a{
+        text-decoration: none;
+    f   ont-size: 14px;
     }
 
     .tab0{
@@ -255,7 +255,7 @@ input[type="text"] {
     display: none;
   }
 
-  #toggle  {
+  .icon{
     display: none;
   }
 
@@ -273,21 +273,17 @@ input[type="text"] {
         text-align: right;
     }
 
-    .tabs {
+    #tabs {
         text-align: center;
         width: 100%;
         display: none;
     }
 
-    .tabs a {
+    #tabs a {
         display: block;
         border-bottom: 1px solid #eaeaeb;
         margin: 0%;
         font-size: 15px;
-    }
-
-    #toggle:checked + .tabs {
-        display: block;
     }
 
     .box-6{
@@ -304,6 +300,7 @@ input[type="text"] {
 
     .box-4{
         display: flex;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -352,7 +349,14 @@ input[type="text"] {
     .trailer{
         max-width: 350px;
     }
-  }
-  
 
+    .mainDiv{
+        width: 100%;
+    }
 
+    .icon{
+        display: block;
+        text-align: center;
+        color: #919191;
+    }
+}
